@@ -1,2 +1,2 @@
 string = str(input("Enter the string: "))
-print(string[:-3:-1])
+print("Inverted string: ", string[:-3:-1])
