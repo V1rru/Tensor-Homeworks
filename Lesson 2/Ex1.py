@@ -11,7 +11,9 @@ div = firstNumber / secondNumber
 pow = firstNumber ** secondNumber
 mod = firstNumber % secondNumber
 idiv = firstNumber // secondNumber
-print(f'''Sum: {sum},
+print(f'''First number: {firstNumber},
+Second number: {secondNumber},
+Sum: {sum},
 Subtraction (first - second): {sub},
 Multiplication: {mult},
 Division (first / second): {div},
