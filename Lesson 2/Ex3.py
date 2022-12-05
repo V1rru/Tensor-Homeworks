@@ -1,2 +1,2 @@
-string = str(input("Enter the string: "))
+string = input("Enter the string: ")
 print("Inverted string: ", string[:-3:-1])
