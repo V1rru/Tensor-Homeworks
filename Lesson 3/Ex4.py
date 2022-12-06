@@ -46,8 +46,7 @@ while True:
         b = complex(bReal, bImag)
         c = complex(cReal, cImag)
 
-
-            # Calculating discriminant
+        # Calculating discriminant
         D = (b ** 2) - (4 * a * c)
         print("Discriminant =", D)
 
@@ -56,7 +55,6 @@ while True:
         x2 = (-b - cmath.sqrt(D)) / (2 * a)
         print(f'''x1 = {x1}''')
         print(f'''x2 = {x2}''')
-
         break
     else: 
         print("Wrong word. Try again")
