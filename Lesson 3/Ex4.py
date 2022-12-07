@@ -32,9 +32,10 @@ while True:
             print(f'''x1 = {x1}''')
             print(f'''x2 = {x2}''')
         break
+    
     elif choice == "complex":
         # Getting coefficients
-        print("Enter coefficients of the equation ax^2 + bx + c = 0")
+        print("Enter complex coefficients of the equation ax^2 + bx + c = 0")
         aReal = float(input("Enter a (real) = "))
         aImag = float(input("Enter a (imag) = "))
         bReal = float(input("Enter b (real) = "))
@@ -56,6 +57,7 @@ while True:
         print(f'''x1 = {x1}''')
         print(f'''x2 = {x2}''')
         break
+
     else: 
         print("Wrong word. Try again")
 
