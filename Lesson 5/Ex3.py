@@ -6,6 +6,7 @@ def fib(amount):
     return fib(amount - 1) + fib(amount - 2)
 
 number = input("Enter an integer number: ")
+
 if number.isnumeric() == True:
     number = int(number)
     print("Your current Fibonacci number is:", fib(number))
